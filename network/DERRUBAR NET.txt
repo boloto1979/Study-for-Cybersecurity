@@ -1,0 +1,29 @@
+pkg update
+
+pkg upgrade
+
+pkg install python2
+
+pkg install git
+
+git clone https://github.com/Gameye98/Lazymux
+
+ls
+
+cd Lazymux
+
+ls
+
+python2 lazymux.py
+
+03
+
+03
+
+00
+
+cd $HOME
+
+cd fl00d
+
+python2 fl00d2.py
